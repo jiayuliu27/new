@@ -42,3 +42,9 @@ mix:
 
 wait:
 	@echo "Wait for an hour"
+
+createnp:
+	npm init
+	npm install
+
+.PHONY: createnp
